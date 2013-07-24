@@ -1,0 +1,6 @@
+desc "Sandbox"
+role :app, ""
+
+task :search_libs do
+  run "ls -xl /usr/lib"
+end

@@ -25,6 +25,6 @@
 # end
 load "config/shared/custom_config"
 
-task :testingTouch do
-  run "touch /tmp/testinTouch.txt"
+task :appendTouch do
+  run "'yo' >> /tmp/testinTouch.txt"
 end

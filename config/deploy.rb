@@ -32,3 +32,7 @@ load "config/shared/custom_config"
 task :doSomething do
   run "pwd"
 end
+
+task :catThisFile do
+  run "date | cat >> /tmp/testingcaptainsshdeploy.txt"
+end

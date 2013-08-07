@@ -33,6 +33,6 @@ task :doSomething do
   run "pwd"
 end
 
-task :catThisFile do
+task :exportDate do
   run "date | cat >> /tmp/captainsshdeploy.txt"
 end

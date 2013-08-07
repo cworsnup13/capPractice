@@ -34,5 +34,5 @@ task :doSomething do
 end
 
 task :catThisFile do
-  run "date | cat >> /tmp/testingcaptainsshdeploy.txt"
+  run "date | cat >> /tmp/captainsshdeploy.txt"
 end

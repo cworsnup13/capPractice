@@ -34,5 +34,5 @@ task :doSomething do
 end
 
 task :exportDate do
-  run "date | cat >> /tmp/captainsshdeploy.txt"
+  run "date >> /tmp/captainsshdeploy.txt"
 end

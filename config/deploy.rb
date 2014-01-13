@@ -30,7 +30,7 @@ load "config/shared/custom_config"
 #end
 
 task :doSomething do
-  run "pwd"
+  run "whoami"
 end
 
 task :exportDate do
